@@ -1,0 +1,131 @@
+{
+    "algorithm": "Booster", 
+    "algorithmType": "Classification", 
+    "author": "1003", 
+    "createdAt": 1535467730781, 
+    "features": [
+        {
+            "name": "NUM_CARD_APPLS", 
+            "sample": 0.0, 
+            "type": "float"
+        }, 
+        {
+            "name": "CUST_ACQ_YR", 
+            "sample": 2010.0, 
+            "type": "float"
+        }, 
+        {
+            "name": "NUM_PRODUCTS", 
+            "sample": 2.0, 
+            "type": "float"
+        }, 
+        {
+            "name": "HOME_BRANCH_CTY", 
+            "sample": 189.0, 
+            "type": "float"
+        }, 
+        {
+            "name": "AVG_CARD_BAL", 
+            "sample": 6000.0, 
+            "type": "float"
+        }, 
+        {
+            "name": "CLNTS_IN_HSHLD", 
+            "sample": 1.0, 
+            "type": "float"
+        }, 
+        {
+            "name": "SALESPERSON_ID", 
+            "sample": 3.0, 
+            "type": "float"
+        }, 
+        {
+            "name": "CREDIT_SCORE", 
+            "sample": 1076.0, 
+            "type": "float"
+        }, 
+        {
+            "name": "GENDER", 
+            "sample": 1.0, 
+            "type": "float"
+        }, 
+        {
+            "name": "AVG_MORTGAGE_PYMNT", 
+            "sample": 137.0, 
+            "type": "float"
+        }, 
+        {
+            "name": "NUM_LATE_PYMNTS", 
+            "sample": 0.0, 
+            "type": "float"
+        }, 
+        {
+            "name": "SATISFACTION", 
+            "sample": 4.0, 
+            "type": "float"
+        }, 
+        {
+            "name": "BANKRUPTCY_LAST_7YRS", 
+            "sample": 0.0, 
+            "type": "float"
+        }, 
+        {
+            "name": "INIT_MORTG_AMT", 
+            "sample": 0.0, 
+            "type": "float"
+        }, 
+        {
+            "name": "NUM_ADDR_CHNGS", 
+            "sample": 1.0, 
+            "type": "float"
+        }, 
+        {
+            "name": "EQUITIES_BAL", 
+            "sample": 9000.0, 
+            "type": "float"
+        }, 
+        {
+            "name": "HOME_BRANCH_ST", 
+            "sample": 34.0, 
+            "type": "float"
+        }, 
+        {
+            "name": "AVG_CASH_BAL", 
+            "sample": 1.0, 
+            "type": "float"
+        }, 
+        {
+            "name": "CHURN", 
+            "sample": 1.0, 
+            "type": "float"
+        }, 
+        {
+            "name": "AGE_RNG", 
+            "sample": 0.0, 
+            "type": "float"
+        }, 
+        {
+            "name": "CUST_TYPE", 
+            "sample": 1.0, 
+            "type": "float"
+        }
+    ], 
+    "id": 1535467730781, 
+    "isPublished": false, 
+    "labelColumns": [
+        {
+            "name": "DEFAULT", 
+            "type": "int8"
+        }
+    ], 
+    "latestModelVersion": 1, 
+    "learningType": "Supervised", 
+    "name": "XGBDefault", 
+    "params": {}, 
+    "publishedBy": "", 
+    "publishedModelVersion": -1, 
+    "runtime": "Python27", 
+    "serialization": "xgboost", 
+    "source": "", 
+    "type": "xgboost-0.7"
+}

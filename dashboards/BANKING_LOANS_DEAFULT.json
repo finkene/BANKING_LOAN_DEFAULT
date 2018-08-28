@@ -1,0 +1,561 @@
+{
+  "name": "New dashboard",
+  "layout": {
+    "id": "page0",
+    "items": [
+      {
+        "id": "page1",
+        "items": [
+          {
+            "id": "page2",
+            "css": "templateBox aspectRatio_default",
+            "items": [
+              {
+                "id": "page3",
+                "style": {
+                  "top": "0%",
+                  "left": "0%",
+                  "right": "66.7%",
+                  "bottom": "75%"
+                },
+                "type": "templateDropZone",
+                "templateName": "dz1",
+                "relatedLayouts": ""
+              },
+              {
+                "id": "page4",
+                "css": "noBorderLeft",
+                "style": {
+                  "top": "0%",
+                  "left": "33.3%",
+                  "right": "33.4%",
+                  "bottom": "75%"
+                },
+                "type": "templateDropZone",
+                "templateName": "dz4",
+                "relatedLayouts": ""
+              },
+              {
+                "id": "page5",
+                "css": "noBorderLeft",
+                "style": {
+                  "top": "0%",
+                  "left": "66.6%",
+                  "right": "0%",
+                  "bottom": "75%"
+                },
+                "type": "templateDropZone",
+                "templateName": "dz5"
+              },
+              {
+                "id": "page6",
+                "css": "noBorderTop",
+                "style": {
+                  "top": "25%",
+                  "left": "0%",
+                  "right": "0%",
+                  "bottom": "37.5%"
+                },
+                "type": "templateDropZone",
+                "templateName": "dz2",
+                "relatedLayouts": ""
+              },
+              {
+                "id": "page7",
+                "css": "noBorderTop",
+                "style": {
+                  "top": "62.5%",
+                  "left": "0%",
+                  "right": "0%",
+                  "bottom": "0%"
+                },
+                "type": "templateDropZone",
+                "templateName": "dz3",
+                "relatedLayouts": ""
+              },
+              {
+                "id": "model00000165816c8267_00000004",
+                "style": {
+                  "top": "54.926624737945495%",
+                  "left": "0%",
+                  "height": "37.316561844863735%",
+                  "width": "99.76931949250289%"
+                },
+                "type": "widget",
+                "relatedLayouts": ""
+              },
+              {
+                "id": "model00000165815a14b2_00000001",
+                "style": {
+                  "top": "0.20964360587002095%",
+                  "left": "0.11534025374855825%",
+                  "height": "44.44444444444444%",
+                  "width": "99.76931949250289%"
+                },
+                "type": "widget",
+                "relatedLayouts": ""
+              }
+            ],
+            "type": "scalingAbsolute"
+          }
+        ],
+        "type": "container",
+        "title": "Tab 1",
+        "templateName": "Template11"
+      }
+    ],
+    "style": {
+      "height": "100%"
+    },
+    "type": "tab"
+  },
+  "theme": "defaultTheme",
+  "version": 1008,
+  "eventGroups": [
+    {
+      "id": "page1:1",
+      "widgetIds": [
+        "model00000165815a14b2_00000001",
+        "model00000165816c8267_00000004"
+      ]
+    }
+  ],
+  "dataSources": {
+    "version": "1.0",
+    "sources": [
+      {
+        "id": "model0000016581584164_00000001",
+        "assetId": "assetId0000016581584162_00000000",
+        "clientId": "banking_loans_default",
+        "module": {
+          "identifier": "banking_loans_default",
+          "label": "banking_loans_default",
+          "source": {
+            "id": "banking_loans_default",
+            "srcUrl": {
+              "property": [
+                {
+                  "name": "headers",
+                  "value": [
+                    {
+                      "name": "Authorization",
+                      "value": "Bearer eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6ImN0cDEiLCJzdWIiOiJjdHAxIiwiaXNzIjoiS05PWFNTTyIsImF1ZCI6IkRTWCIsInJvbGUiOiJBZG1pbiIsInBlcm1pc3Npb25zIjpbImFkbWluaXN0cmF0b3IiLCJhY2Nlc3NfY2F0YWxvZyIsInZpcnR1YWxpemVfdHJhbnNmb3JtIiwiY2FuX3Byb3Zpc2lvbiIsIm1hbmFnZV9jYXRhbG9nIiwibWFuYWdlX3BvbGljaWVzIiwiYWNjZXNzX3BvbGljaWVzIl0sInVpZCI6IjEwMDMiLCJkaXNwbGF5X25hbWUiOiJDVFAxIiwiaWF0IjoxNTM1NDc0MzMwLCJleHAiOjE1MzU1MTc1MzB9.c9zIi6A3eoqSw4OjYuDIqPAK1KqF2Lya5k0NZVmgxyhI-YYbSg6VR_G1e17im2W2txaMX6ioTBOfR9qrLAGOSrxMVkzbY5_TkAEFnNZL29VFsOIBCQhcXXmxO7oM62h5lhRQAZGuKnykUyytTvmemAonrqOv-3dxo5BziqqF0s3KawtmaweWTg5QAK-7HV09pL_k88JHwSKefo2uJfC_QCuMok1QfTSsYShRDwEdF7P7kQp3-9xfiuqZdYYdOWtysGD8lYse7B4pPoF9IqRyj9HH6l0aQAERGPCBa7wcf6lH5bvNbUctmFox_Ak5Ba5cRBzAIVPbpYXxrXrK8l8XxQ"
+                    }
+                  ]
+                }
+              ],
+              "sourceUrl": "http://dsx-core-svc:3000/v3/project/FSS_DEMO_NF/asset/banking_loans_default.csv/download"
+            }
+          },
+          "table": {
+            "column": [
+              {
+                "datatype": "FLOAT",
+                "description": "SATISFACTION",
+                "label": "SATISFACTION",
+                "name": "SATISFACTION",
+                "nullable": "true",
+                "regularAggregate": "none",
+                "usage": "attribute"
+              },
+              {
+                "datatype": "FLOAT",
+                "description": "CHURN",
+                "label": "CHURN",
+                "name": "CHURN",
+                "nullable": "true",
+                "regularAggregate": "none",
+                "usage": "attribute"
+              },
+              {
+                "datatype": "CHAR",
+                "description": "AVG_CASH_BAL",
+                "label": "AVG_CASH_BAL",
+                "name": "AVG_CASH_BAL",
+                "nullable": "true",
+                "regularAggregate": "none",
+                "usage": "attribute"
+              },
+              {
+                "datatype": "FLOAT",
+                "description": "AGE",
+                "label": "AGE",
+                "name": "AGE",
+                "nullable": "true",
+                "regularAggregate": "none",
+                "usage": "attribute"
+              },
+              {
+                "datatype": "CHAR",
+                "description": "AGE_RNG",
+                "label": "AGE_RNG",
+                "name": "AGE_RNG",
+                "nullable": "true",
+                "regularAggregate": "none",
+                "usage": "attribute"
+              },
+              {
+                "datatype": "CHAR",
+                "description": "GENDER",
+                "label": "GENDER",
+                "name": "GENDER",
+                "nullable": "true",
+                "regularAggregate": "none",
+                "usage": "attribute"
+              },
+              {
+                "datatype": "FLOAT",
+                "description": "NUM_PRODUCTS",
+                "label": "NUM_PRODUCTS",
+                "name": "NUM_PRODUCTS",
+                "nullable": "true",
+                "regularAggregate": "none",
+                "usage": "attribute"
+              },
+              {
+                "datatype": "FLOAT",
+                "description": "CUST_ACQ_YR",
+                "label": "CUST_ACQ_YR",
+                "name": "CUST_ACQ_YR",
+                "nullable": "true",
+                "regularAggregate": "none",
+                "usage": "attribute"
+              },
+              {
+                "datatype": "FLOAT",
+                "description": "NUM_UNIQ_PRODUCTS",
+                "label": "NUM_UNIQ_PRODUCTS",
+                "name": "NUM_UNIQ_PRODUCTS",
+                "nullable": "true",
+                "regularAggregate": "none",
+                "usage": "attribute"
+              },
+              {
+                "datatype": "FLOAT",
+                "description": "EQUITIES_BAL",
+                "label": "EQUITIES_BAL",
+                "name": "EQUITIES_BAL",
+                "nullable": "true",
+                "regularAggregate": "none",
+                "usage": "attribute"
+              },
+              {
+                "datatype": "CHAR",
+                "description": "INIT_MORTG_AMT",
+                "label": "INIT_MORTG_AMT",
+                "name": "INIT_MORTG_AMT",
+                "nullable": "true",
+                "regularAggregate": "none",
+                "usage": "attribute"
+              },
+              {
+                "datatype": "FLOAT",
+                "description": "NUM_ADDR_CHNGS",
+                "label": "NUM_ADDR_CHNGS",
+                "name": "NUM_ADDR_CHNGS",
+                "nullable": "true",
+                "regularAggregate": "none",
+                "usage": "attribute"
+              },
+              {
+                "datatype": "FLOAT",
+                "description": "HOUSEHOLD_ID",
+                "label": "HOUSEHOLD_ID",
+                "name": "HOUSEHOLD_ID",
+                "nullable": "true",
+                "regularAggregate": "none",
+                "usage": "attribute"
+              },
+              {
+                "datatype": "FLOAT",
+                "description": "CLNTS_IN_HSHLD",
+                "label": "CLNTS_IN_HSHLD",
+                "name": "CLNTS_IN_HSHLD",
+                "nullable": "true",
+                "regularAggregate": "none",
+                "usage": "attribute"
+              },
+              {
+                "datatype": "FLOAT",
+                "description": "AVG_CARD_BAL",
+                "label": "AVG_CARD_BAL",
+                "name": "AVG_CARD_BAL",
+                "nullable": "true",
+                "regularAggregate": "none",
+                "usage": "attribute"
+              },
+              {
+                "datatype": "CHAR",
+                "description": "CUST_TYPE",
+                "label": "CUST_TYPE",
+                "name": "CUST_TYPE",
+                "nullable": "true",
+                "regularAggregate": "none",
+                "usage": "attribute"
+              },
+              {
+                "datatype": "CHAR",
+                "description": "HOME_BRANCH_CTY",
+                "label": "HOME_BRANCH_CTY",
+                "name": "HOME_BRANCH_CTY",
+                "nullable": "true",
+                "regularAggregate": "none",
+                "usage": "attribute"
+              },
+              {
+                "datatype": "CHAR",
+                "description": "HOME_BRANCH_ST",
+                "label": "HOME_BRANCH_ST",
+                "name": "HOME_BRANCH_ST",
+                "nullable": "true",
+                "regularAggregate": "none",
+                "usage": "attribute"
+              },
+              {
+                "datatype": "CHAR",
+                "description": "SALESPERSON_ID",
+                "label": "SALESPERSON_ID",
+                "name": "SALESPERSON_ID",
+                "nullable": "true",
+                "regularAggregate": "none",
+                "usage": "attribute"
+              },
+              {
+                "datatype": "FLOAT",
+                "description": "NUM_LATE_PYMNTS",
+                "label": "NUM_LATE_PYMNTS",
+                "name": "NUM_LATE_PYMNTS",
+                "nullable": "true",
+                "regularAggregate": "none",
+                "usage": "attribute"
+              },
+              {
+                "datatype": "FLOAT",
+                "description": "NUM_CARD_APPLS",
+                "label": "NUM_CARD_APPLS",
+                "name": "NUM_CARD_APPLS",
+                "nullable": "true",
+                "regularAggregate": "none",
+                "usage": "attribute"
+              },
+              {
+                "datatype": "CHAR",
+                "description": "BANKRUPTCY_LAST_7YRS",
+                "label": "BANKRUPTCY_LAST_7YRS",
+                "name": "BANKRUPTCY_LAST_7YRS",
+                "nullable": "true",
+                "regularAggregate": "none",
+                "usage": "attribute"
+              },
+              {
+                "datatype": "FLOAT",
+                "description": "MONTHLY_MORTGAGE_PYMNT",
+                "label": "MONTHLY_MORTGAGE_PYMNT",
+                "name": "MONTHLY_MORTGAGE_PYMNT",
+                "nullable": "true",
+                "regularAggregate": "none",
+                "usage": "attribute"
+              },
+              {
+                "datatype": "FLOAT",
+                "description": "CREDIT_SCORE",
+                "label": "CREDIT_SCORE",
+                "name": "CREDIT_SCORE",
+                "nullable": "true",
+                "regularAggregate": "none",
+                "usage": "attribute"
+              },
+              {
+                "datatype": "CHAR",
+                "description": "DEFAULT",
+                "label": "DEFAULT",
+                "name": "DEFAULT",
+                "nullable": "true",
+                "regularAggregate": "none",
+                "usage": "attribute"
+              }
+            ],
+            "name": "banking_loans_default"
+          },
+          "xsd": "https://ibm.com/daas/module/1.0/module.xsd"
+        },
+        "name": "banking_loans_default",
+        "shaping": {
+          "embeddedModuleUpToDate": true
+        }
+      }
+    ]
+  },
+  "pageContext": [
+    {
+      "origin": "filter",
+      "table": "",
+      "alias": "0",
+      "sourceId": "model0000016581584164_00000001",
+      "scope": "global",
+      "hierarchyNames": [
+        "SATISFACTION"
+      ],
+      "hierarchyUniqueNames": [
+        "banking_loans_default.SATISFACTION"
+      ],
+      "exclude": false,
+      "isNamedSet": false,
+      "tupleSet": "{\"1\":{\"u\":1,\"d\":1},\"2\":{\"u\":2,\"d\":2},\"2.5\":{\"u\":2.5,\"d\":2.5}}"
+    },
+    {
+      "origin": "filter",
+      "table": "",
+      "alias": "0",
+      "sourceId": "model0000016581584164_00000001",
+      "scope": "page1",
+      "hierarchyNames": [
+        "CUST_ACQ_YR"
+      ],
+      "hierarchyUniqueNames": [
+        "banking_loans_default.CUST_ACQ_YR"
+      ],
+      "exclude": true,
+      "isNamedSet": false,
+      "tupleSet": "{\"2003\":{\"u\":2003,\"d\":2003},\"2004\":{\"u\":2004,\"d\":2004},\"2005\":{\"u\":2005,\"d\":2005},\"2006\":{\"u\":2006,\"d\":2006},\"2009\":{\"u\":2009,\"d\":2009},\"2010\":{\"u\":2010,\"d\":2010}}"
+    },
+    {
+      "origin": "visualization",
+      "table": "",
+      "alias": "0",
+      "sourceId": "model0000016581584164_00000001",
+      "hierarchies": [
+        {
+          "hierarchyUniqueName": "banking_loans_default.AGE_RNG"
+        }
+      ],
+      "scope": "page1",
+      "hierarchyUniqueNames": [
+        "banking_loans_default.AGE_RNG"
+      ],
+      "eventSourceId": "model00000165815a14b2_00000001",
+      "eventGroupId": "page1:1",
+      "tupleSet": "{\"banking_loans_default.AGE_RNG->[80+]\":{\"u\":\"banking_loans_default.AGE_RNG->[80+]\",\"d\":\"80+\"}}"
+    }
+  ],
+  "drillThrough": [],
+  "widgets": {
+    "model00000165815a14b2_00000001": {
+      "id": "model00000165815a14b2_00000001",
+      "data": {
+        "dataViews": [
+          {
+            "modelRef": "model0000016581584164_00000001",
+            "dataItems": [
+              {
+                "id": "model00000165815a14b0_00000000",
+                "itemId": "banking_loans_default.AGE_RNG",
+                "itemLabel": "AGE_RNG"
+              },
+              {
+                "id": "model00000165815a14b0_00000001",
+                "itemId": "banking_loans_default.DEFAULT_",
+                "itemLabel": "DEFAULT"
+              }
+            ],
+            "id": "model00000165815a14b0_00000002"
+          }
+        ]
+      },
+      "visTypeLocked": true,
+      "slotmapping": {
+        "slots": [
+          {
+            "name": "categories",
+            "dataItems": [
+              "model00000165815a14b0_00000000"
+            ],
+            "dataItemSettings": [],
+            "caption": "Bars",
+            "id": "categories",
+            "layerId": "data"
+          },
+          {
+            "name": "values",
+            "dataItems": [
+              "model00000165815a14b0_00000001"
+            ],
+            "caption": "Length",
+            "id": "values",
+            "layerId": "data"
+          }
+        ]
+      },
+      "type": "live",
+      "name": "",
+      "visId": "com.ibm.vis.rave2bundlebar",
+      "properties": [
+        {
+          "id": "colorPalette",
+          "value": "colorPalette6"
+        },
+        {
+          "id": "contColorPalette",
+          "value": "colorPalette7"
+        }
+      ]
+    },
+    "model00000165816c8267_00000004": {
+      "id": "model00000165816c8267_00000004",
+      "data": {
+        "dataViews": [
+          {
+            "modelRef": "model0000016581584164_00000001",
+            "dataItems": [
+              {
+                "id": "model00000165816c8267_00000001",
+                "itemId": "banking_loans_default.DEFAULT_",
+                "itemLabel": "DEFAULT"
+              },
+              {
+                "id": "model0000016581713559_00000000",
+                "itemId": "banking_loans_default.INIT_MORTG_AMT",
+                "itemLabel": "INIT_MORTG_AMT"
+              }
+            ],
+            "id": "model00000165816e4776_00000000"
+          }
+        ]
+      },
+      "visTypeLocked": true,
+      "slotmapping": {
+        "slots": [
+          {
+            "name": "categories",
+            "dataItems": [
+              "model0000016581713559_00000000"
+            ],
+            "dataItemSettings": [],
+            "caption": "Segments",
+            "id": "categories",
+            "layerId": "data"
+          },
+          {
+            "name": "values",
+            "dataItems": [
+              "model00000165816c8267_00000001"
+            ],
+            "caption": "Size",
+            "id": "values",
+            "layerId": "data"
+          }
+        ]
+      },
+      "type": "live",
+      "name": "",
+      "localFilters": [],
+      "visId": "com.ibm.vis.rave2bundlepie",
+      "properties": [
+        {
+          "id": "colorPalette",
+          "value": "colorPalette0"
+        }
+      ]
+    }
+  }
+}
